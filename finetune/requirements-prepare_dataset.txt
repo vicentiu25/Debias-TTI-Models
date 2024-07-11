@@ -1,0 +1,6 @@
+diffusers
+datasets
+openai
+jsonlines
+accelerate
+transformers

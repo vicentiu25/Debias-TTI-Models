@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "root": {
+        "level": "DEBUG",
+        "handlers": ["consoleHandler"]
+    },
+    "handlers": {
+        "consoleHandler": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "sysoutFormatter"
+        }
+    },
+    "formatters": {
+        "sysoutFormatter": {
+            "format": "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)s | %(message)s",
+            "datefmt": "%H:%M:%S"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+accelerate
+transformers
+datasets
+peft
+jsonlines
+pillow

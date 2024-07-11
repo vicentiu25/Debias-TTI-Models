@@ -1,0 +1,5 @@
+tensorflow==2.15.1
+transformers
+accelerate
+deepface==0.0.86
+opencv-python==4.8.0.74
